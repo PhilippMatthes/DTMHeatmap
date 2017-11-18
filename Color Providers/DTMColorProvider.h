@@ -23,6 +23,9 @@ static const CGFloat kSBAlphaPivotY = 0.5;
 static const CGFloat kSBMaxAlpha = 0.85;
 
 @interface DTMColorProvider : NSObject
+  
+
+- (void)red:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue;
 
 - (void)colorForValue:(double)value
                   red:(CGFloat *)red
